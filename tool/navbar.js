@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("https://fern5-44.github.io/jgl.github.io/tool/navbar.html")
+  fetch("https://fern5-44.github.io/jgl/tool/navbar.html")
     .then(response => response.text())
     .then(data => {
       document.getElementById("navbar-container").innerHTML = data;
@@ -36,7 +36,7 @@ function closeNav() {
 }
 
 // Footer laden
-fetch("https://fern5-44.github.io/jgl.github.io/tool/footer.html")
+fetch("https://fern5-44.github.io/jgl/tool/footer.html")
   .then(response => response.text())
   .then(data => {
     document.getElementById("footer-container").innerHTML = data;
